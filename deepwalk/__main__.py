@@ -127,7 +127,7 @@ def main():
   parser.add_argument('--output', required=True,
                       help='Output representation file')
 
-  parser.add_argument('--representation-size', default=64, type=int,
+  parser.add_argument('--representation-size', default=2, type=int,
                       help='Number of latent dimensions to learn for each node.')
 
   parser.add_argument('--seed', default=0, type=int,
