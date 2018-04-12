@@ -12,6 +12,10 @@ import logging
 
 from deepwalk import graph
 from deepwalk import walks as serialized_walks
+
+import warnings
+warnings.filterwarnings(action='ignore', category=UserWarning, module='gensim')
+
 from gensim.models import Word2Vec
 from deepwalk.skipgram import Skipgram
 
