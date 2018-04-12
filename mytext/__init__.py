@@ -1,0 +1,1 @@
+#--input example_graphs/karate.adjlist --output result/karate/karate.embeddings --workers 1 --number-walks 999
